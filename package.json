@@ -1,0 +1,20 @@
+{
+  "name": "localmate",
+  "version": "1.0.0",
+  "description": "AI-powered travel and lifestyle companion",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": ["travel", "ai", "recommendations", "foursquare", "openai"],
+  "author": "LocaMate Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
