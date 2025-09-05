@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderColor: {
+        DEFAULT: '#e5e7eb',
+        border: '#e5e7eb', // Adding border-border class definition
+      },
       colors: {
         primary: {
           50: '#eff6ff',
@@ -147,4 +151,4 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
   ],
-} 
+}
